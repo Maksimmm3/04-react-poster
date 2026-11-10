@@ -4,7 +4,7 @@ A small single-page app for sharing posts — built to practice React Router's d
 
 ## Tech Stack
 
-- React 19 + Vite
+- React 18 + Vite
 - React Router (data router: `createBrowserRouter`, `loader`, `action`)
 - Express (backend, separate process)
 - CSS Modules
@@ -34,3 +34,24 @@ A small single-page app for sharing posts — built to practice React Router's d
 npm install
 npm run dev
 ```
+
+The app runs on `http://localhost:5173`.
+
+### Backend
+
+The backend is a separate Express API. Clone and run it first:
+
+```bash
+git clone https://github.com/Maksimmm3/03-react-poster-backend.git
+cd 03-react-poster-backend
+npm install
+npm start
+```
+
+It runs on `http://localhost:8080`.
+
+> Both processes must be running simultaneously for the app to work.
+
+## Related
+
+- Backend: [03-react-poster-backend](https://github.com/Maksimmm3/03-react-poster-backend)
